@@ -1,0 +1,18 @@
+body {
+    background-color: #EEEEEE; /*Off-white, nice contrast from the text color but also not so harsh*/
+    max-width: 660px; /* Shorter lines, easier to read */
+    margin: 42px auto; /* Avoid the edges even when zoomed in */
+    padding: 0 12px;
+
+    color: #444; /*Very dark grey, nice contrast from the background color but also not so harsh*/
+    font-size: 18px; /* Nice and big, accesible*/
+    line-height: 1.5; /* Also easier to read, avoids big blocks */
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+h1 span, h2 span, h3 span {
+    font-weight: normal;
+}
