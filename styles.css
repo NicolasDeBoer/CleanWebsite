@@ -5,6 +5,7 @@ body {
     padding: 0 12px;
 
     color: #444; /*Very dark grey, nice contrast from the background color but also not so harsh*/
+    font-family: "Segoe UI", Arial, sans-serif;
     font-size: 18px; /* Nice and big, accesible*/
     line-height: 1.5; /* Also easier to read, avoids big blocks */
 }
@@ -16,3 +17,11 @@ h1, h2, h3 {
 h1 span, h2 span, h3 span {
     font-weight: normal;
 }
+
+a:link {
+    color:#4c94e7
+  }
+
+a:visited {
+    color:#7d84d3
+  }
